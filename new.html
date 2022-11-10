@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   .column {
+        float: left;
+        width: 40%; 
+        padding: 20px;
+   }
+   .row::after {
+        content: "";
+        clear: both;
+        display:inline-table;
+   }
+   * {
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid red;
+  padding: 15px;
+}
+
+.menu {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.main {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+</style>
+<body>
+   
+<div class="row">
+   <div class="column" style="background-color: red; border-color: green;">
+     <h2>City Pride: Mangala Cinema </h2>
+     <p>Some text..</p>
+   </div>
+   <div class="column" style="background-color: rgb(184, 27, 27); border: rgb(17, 30, 174);">
+     <h2>Column 2 <button id="b1">03:30 PM</button><br><button id="b1">10:00 PM</button></h2>
+     <p>Some text..</p>
+     <button id="b1">03:30 PM</button><br><button id="b1">10:00 PM</button>
+   </div>
+ <div class="row">
+  
+  <div class="column" style="background-color: red; border-color: green;">
+    <h2>City Pride: Mangala Cinema </h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color: rgb(184, 27, 27); border: rgb(17, 30, 174);">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+    <button id="b1">03:30 PM</button><br><button id="b1">10:00 PM</button>
+  </div>
+  <div class="row">
+    <div class="column" style="background-color: red; border-color: green;">
+      <h2>City Pride: Mangala Cinema </h2>
+      <p>Some text..</p>
+    <div class="column" style="background-color: red; border-color: green;">
+      <h2>City Pride: Mangala Cinema </h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color: rgb(184, 27, 27); border: rgb(17, 30, 174);">
+      <h2>Column 2</h2>
+      <p>Some text..</p>
+      <button id="b1">03:30 PM</button><br><button id="b1">10:00 PM</button>
+    </div>
+</div>
+<div class="header">
+  <h1>Chania</h1>
+</div>
+
+<div class="menu">
+  <h2>City Pride: Mangala Cinema </h2>
+  <p>Some text..</p>
+</div><div class="menu">
+  <h2>City Pride: Mangala Cinema </h2>
+  <p>Some text..</p>
+</div>
+
+
+<div class="main">
+ <h2>Column 2 <button id="b1">03:30 PM</button><br><button id="b1">10:00 PM</button></h2>
+    the browser window to see how the content respond to the resizing.</p>
+</div>
+<div class="main">
+  <h2>Column 2 <button id="b1">03:30 PM</button><br><button id="b1">10:00 PM</button></h2>
+     the browser window to see how the content respond to the resizing.</p>
+ </div>
+
+
+ </body>
+ </html>
